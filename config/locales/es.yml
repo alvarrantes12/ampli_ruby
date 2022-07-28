@@ -1,0 +1,22 @@
+es:
+  application:
+    list_of: Lista de %{model}
+    new: Nuevo %{model}
+    show: Mostrar %{model}
+    edit: Editar %{model}
+    remove: Eliminar %{model}
+    back_to: Volver a %{model}
+    save: Guardar %{model}
+  activerecord:
+    modules:
+      animal:
+        one: Animal
+        other: Animales
+  attributes:
+    animal:
+      name: Nombre
+      species:
+        Birds: Aves
+        Reptiles: Reptiles
+        Mammals: Mamíferos
+        Amphibians: Anfibios
